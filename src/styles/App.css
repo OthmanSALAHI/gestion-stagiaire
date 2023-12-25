@@ -1,0 +1,35 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.li {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #ddd;
+}
